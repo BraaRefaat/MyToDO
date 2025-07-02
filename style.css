@@ -22,7 +22,7 @@ body {
   border-radius: 18px;
   box-shadow: 0 8px 32px rgba(60, 60, 120, 0.18),
     0 1.5px 8px rgba(255, 182, 193, 0.12);
-  width: 90%;
+  width: 40%;
   margin: 48px auto;
   backdrop-filter: blur(2px);
   border: 1.5px solid #f8fafc;
@@ -41,13 +41,19 @@ body {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 600px) {
   .container {
     padding: 1.2rem 0.5rem;
   }
   body {
     padding-left: 6px;
     padding-right: 6px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .container {
+    width: 90%;
   }
 }
 
